@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AmagiTube</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+  <h4 class="navbar-text" style="float:left">amagi</h4>
+  <form class="navbar-form navbar-left" >
+  <div class="form-group">
+   <input type="text" placeholder="Search by date client, channel, city, campaign, brand name" id="searchBox" list="history" class="form-control" style="width: 450px;">
+   <datalist id="history"></datalist>
+   </div>
+   </form>
+   <h4 class="navbar-text" style="float:right">AmagiTube</h4>
+</div>
+</nav>
+<br>
+<div id="wait" style="display:none;width:69px;height:89px;position:absolute;left:50%;"><img src='giphy-downsized.gif' width="64" height="64"/><br>Loading..</div>
+<div id="videos">
+</div>
+
+ 
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="Demo.js" charset="utf-8"></script>
+</html>
+                        		

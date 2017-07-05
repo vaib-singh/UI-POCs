@@ -1,0 +1,25 @@
+.thumbnail{
+  width: 50%;
+  float: left;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.thumbnail-image{
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.thumbnail-details{
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+.thumbnail-details div{
+  padding-left: 20px;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
